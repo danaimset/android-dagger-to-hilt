@@ -26,7 +26,6 @@ import dagger.hilt.android.components.ApplicationComponent
 @InstallIn(ApplicationComponent::class)
 @Module(
     subcomponents = [
-        RegistrationComponent::class,
         UserComponent::class
     ]
 )
